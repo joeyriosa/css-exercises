@@ -24,3 +24,37 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solution */
+
+body {
+  /* this centers everything including text and image inside the cards. */
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.card {
+  max-width: 200px;
+}
+
+/* .card {
+  padding: 0px 52px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+} */
+

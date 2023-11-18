@@ -46,3 +46,19 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* Solution */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  /* I did this without changing anything in the HTML and it seemed to produce the same effect? */
+  flex: 1;
+}
